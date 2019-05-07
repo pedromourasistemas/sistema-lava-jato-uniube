@@ -1,0 +1,1468 @@
+/******************* Não Deixar Sobrar Margem e Borda na Pagina *******************/
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+/******************* Formatação Login *******************/
+#divLogin
+{
+	/*position:absolute;
+	height:165px;		
+	width:500px;
+	right:30%;
+	left:35%;
+	top:300px;	
+	text-align:center;	
+	background-color:#039;	
+	border-radius: 1em;
+	border-top: 5px solid #3CF;
+	border-bottom: 5px solid #3CF;
+	border-left: 5px solid #3CF;
+	border-right: 5px solid #3CF;*/
+}
+
+/******************* Formatação Cabeçalho e Rodapé *******************/
+#figuraCabecalho 
+{
+	width:100%;
+	/*height:165px;	
+	position:absolute;	
+	right:50px;
+	left:5px;
+	top:0px;*/
+}
+
+#figuraRodape
+{
+	position:fixed;
+	bottom:0;
+    width:100%;
+    height:40px;
+    background:#009;	
+	border-top: 5px solid #3CF;	
+}
+
+#textoRodape
+{
+	color:#FFF;
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;	
+}
+
+#informacaoUsuario
+{
+	position:fixed;
+	height:16px;
+	bottom:50px;
+	/*border-top: 1px solid #3CF;*/
+	/*border-left: 1px solid #3CF;
+	border-right: 1px solid #3CF;*/
+	margin-left:850px;
+	margin-top: -520px;
+}
+
+#textoUsuario
+{
+	position:fixed;
+	color:#039;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;	
+}
+
+/******************* Formatação Menu Cadastro *******************/
+#menu ul 
+{	
+	padding:0px;
+	margin:0px;
+	margin-left:530px;
+	margin-top:-180px;
+	background-color:#039;
+	list-style:none;	 
+	text-align:center;
+	top:50%;
+	left:50%;
+	margin:0 auto;
+	width:100%;
+	/*border-radius: 1em;	*/
+	border-bottom: 5px solid #3CF;
+}
+
+#menu ul li 
+{ 
+	display: inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+#menu ul li a 
+{
+	padding: 15px 10px;
+	display: inline-block;
+ 
+	/* visual do link */
+	background-color:#039;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom:3px solid #039;
+}
+
+#menu ul li a:hover 
+{
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+/******************* Formatação Menu Principal *******************/
+#menuPrincipal ul 
+{	
+	padding:0px;
+	margin:0px;
+	margin-left:530px;
+	margin-top:-180px;
+	background-color:#039;
+	list-style:none;	 
+	text-align:center;
+	top:50%;
+	left:50%;
+	margin:0 auto;
+	width:100%;
+	/*border-radius: 1em;	*/
+	border-bottom: 5px solid #3CF;
+}
+
+#menuPrincipal ul li 
+{ 
+	display: inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+#menuPrincipal ul li a 
+{
+	padding: 15px 10px;
+	display: inline-block;
+ 
+	/* visual do link */
+	background-color:#039;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom:3px solid #039;
+}
+
+#menuPrincipal ul li a:hover 
+{
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+/******************* Formatação Menu Relatórios *******************/
+#menuRelatorio ul 
+{	
+	padding:0px;
+	margin:0px;
+	margin-left:530px;
+	margin-top:-180px;
+	background-color:#039;
+	list-style:none;	 
+	text-align:center;
+	top:50%;
+	left:50%;
+	margin:0 auto;
+	width:100%;
+	/*border-radius: 1em;	*/
+	border-bottom: 5px solid #3CF;	
+}
+
+#menuRelatorio ul li 
+{ 
+	display: inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+#menuRelatorio ul li a 
+{
+	padding: 15px 10px;
+	display: inline-block;
+ 
+	/* visual do link */
+	background-color:#039;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom:3px solid #039;
+}
+
+#menuRelatorio ul li a:hover 
+{
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+/*################################ Formatação das Div's Formulários ################################*/
+
+/********************* Formulario Pessoas *********************/
+#divPessoa
+{
+	width:380px;
+	height:470px;
+	border-radius: 1em;
+	text-align:center;
+	background-color:#039;
+	color:#FFF;
+	box-shadow: #000 10px 10px 4px;	
+}
+
+#tituloCadastroPessoa
+{
+	text-align:center;
+	margin-top:15px;
+	color:#009;
+}
+
+.labelPessoa
+{
+    display: inline-block;
+    width: 70px;
+	margin-top:10px;
+	margin-right: 205px;
+	text-align:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:5px;
+}
+
+.largePessoa 
+{
+    width: 170px;
+	height: 20px;
+	text-align:left;
+	margin-left: -200px;
+	border-radius: 4px;
+	border: none;
+}
+
+#cadastrarPessoa
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 690px;
+	left: 620px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearPessoa
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 690px;
+	left: 730px;
+	border-radius: 4px;
+	border: none;
+}
+
+/*************************************************************/
+
+/********************* Formulario Login *********************/
+#divLogin
+{
+	width:405px;
+	height:165px;
+	top:300px;
+	left:540px;
+	position:absolute;		
+	background-color:#039;
+	color:#FFF;		
+	border-radius: 1em;
+	border-top: 5px solid #3CF;
+	border-bottom: 5px solid #3CF;
+	border-left: 5px solid #3CF;
+	border-right: 5px solid #3CF;
+}
+
+.labelLogin
+{
+    display: inline-block;
+    width: 70px;
+	margin-top:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:5px;
+}
+
+.SomenteNumero
+{
+	display: inline-block;
+    width: 150px;
+	margin-top:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:5px;
+}
+
+#Entrarlogin
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 100px;
+	left: 100px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearLogin
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 100px;
+	left: 225px;
+	border-radius: 4px;
+	border: none;
+}
+
+.largeLogin 
+{
+    width: 150px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+/*************************************************************/
+
+/********************* Formulario Cidade *********************/
+#divCidade
+{
+	width:380px;
+	height:140px;
+	border-radius: 1em;
+	text-align:center;
+	background-color:#039;
+	color:#FFF;
+	box-shadow: #000 10px 10px 4px;
+}
+
+#tituloCadastroCidade
+{
+	text-align:center;
+	margin-top:165px;
+	color:#009;
+}
+
+.labelCidade
+{
+    display: inline-block;
+    width: 70px;
+	margin-top:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:5px
+}
+
+#cadastrarCidade
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 500px;
+	left: 620px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearCidade
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 500px;
+	left: 730px;
+	border-radius: 4px;
+	border: none;
+}
+
+.large 
+{
+    width: 270px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+/*************************************************************/
+
+/********************* Formulario Estado *********************/
+#divEstado
+{
+	width:380px;
+	height:140px;
+	border-radius: 1em;
+	text-align:center;
+	background-color:#039;
+	color:#FFF;
+	box-shadow: #000 10px 10px 4px;
+}
+
+#tituloCadastroEstado
+{
+	text-align:center;
+	margin-top:165px;
+	color:#009;
+}
+
+.labelEstado
+{
+    display: inline-block;
+    width: 70px;
+	margin-top:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding:5px
+}
+
+#cadastrarEstado
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 500px;
+	left: 620px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearEstado
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 500px;
+	left: 730px;
+	border-radius: 4px;
+	border: none;
+}
+
+.largeEstado 
+{
+    width: 270px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+/*************************************************************/
+
+/********************* Formulario Veiculo *********************/
+#divVeiculo
+{
+	width:300px;
+	height:250px;
+	border-radius: 1em;
+	text-align:center;
+	background-color:#039;
+	color:#FFF;
+	box-shadow: #000 10px 10px 4px;
+}
+
+#tituloCadastroVeiculo
+{
+	text-align:center;
+	margin-top:130px;
+	color:#009;
+}
+
+.labelVeiculo
+{
+    display: inline-block;
+    width: 70px;
+	margin-top:10px;
+	text-align:left;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding:5px
+}
+
+#cadastrarVeiculo
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 580px;
+	left: 600px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearVeiculo
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 580px;
+	left: 735px;
+	border-radius: 4px;
+	border: none;
+}
+
+.largeVeiculo 
+{
+    width: 150px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+/*************************************************************/
+
+/********************* Formulario Ordem Serviço *********************/
+
+#divOrdemServico
+{	
+	width:400px;
+	height:200px;
+	border-radius: 1em;	
+	text-align:left;
+	background-color:#039;
+	color:#FFF;
+	box-shadow: #000 10px 10px 4px;
+}
+
+#tituloOrdemServico
+{
+	text-align:center;
+	margin-top:160px;
+	color:#009;
+}
+
+#tituloUpdateOrdem
+{
+	text-align:center;
+	color:#009;
+	margin-top: 150px;
+}
+
+.labelOrdemServico
+{
+    display: inline-block;
+    width: 70px;
+	margin-top:10px;
+	margin-left: 35px;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding:5px
+}
+
+labelOrdemServicoServico
+{
+	display: inline-block;
+    width: 200px;
+	margin-top:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding:5px
+}
+
+#cadastrarOrdemServico
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 505px;
+	left: 610px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearOrdemServico
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 505px;
+	left: 735px;
+	border-radius: 4px;
+	border: none;
+}
+
+.largeOrdemServico
+{
+    width: 200px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+#data
+{
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+#hora
+{
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+#servico
+{
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+/*************************************************************/
+
+/********************* Formulario Serviços *********************/
+
+#divServico
+{
+	width:400px;
+	height:150px;
+	border-radius: 1em;
+	text-align:center;
+	background-color:#039;
+	color:#FFF;
+	box-shadow: #000 10px 10px 4px;
+}
+
+#tituloCadastroServico
+{
+	text-align:center;
+	margin-top:160px;
+	color:#009;
+}
+
+.labelServico
+{
+    display: inline-block;
+	text-align:left;
+    width: 70px;
+	margin-top:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding:5px
+}
+
+#cadastrarServico
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 500px;
+	left: 610px;
+	border-radius: 4px;
+	border: none;
+}
+
+#clearServico
+{
+	display: inline-block;
+	width: 100px;
+	position:absolute;
+	top: 500px;
+	left: 735px;
+	border-radius: 4px;
+	border: none;
+}
+
+.largeServico
+{
+    width: 250px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+.largeValor
+{
+    width: 100px;
+	border-radius: 4px;
+	height: 20px;
+	border: none;
+}
+
+/*************************************************************/
+
+#divOrdemServicoUpdate
+{
+	background-color:#039;
+	border-radius: 1em;
+	margin:0 auto;
+	top:50%;
+	left:50%;
+	width:600px;	
+	margin-left:440px;
+	margin-top:-180px;
+	text-align:center;	
+	box-shadow: #000 10px 10px 4px;
+}
+
+/********************/
+/*label {
+    display: inline-block;
+    width: 100px;
+}
+input {
+    margin-right: 35px;
+}
+.large {
+    width: 300px;
+}
+.medium {
+    width: 150px;
+}
+.mini {
+    width: 75px;
+}*/
+
+/******************* Formatação Figuras no Centro dos Menus *******************/
+.figuraReport 
+{	
+	width:350px;	
+	margin-left:530px;
+	margin-top:200px;
+	text-align:center;
+}
+
+.figuraCadastro
+{
+	width:350px;	
+	margin-left:530px;
+	margin-top:200px;
+	text-align:center;
+}
+
+.figuraGlobo
+{
+	width:350px;	
+	margin-left:530px;
+	margin-top:200px;
+	text-align:center;
+}
+
+.figuraLogin
+{
+	width:350px;	
+	margin-left:600px;
+	margin-top:380px;
+	text-align:center;
+}
+
+/******************* Formatação Figuras nos Relatorios *******************/
+.figuraReportCliente 
+{	
+	width:350px;	
+	margin-left:1080px;
+	margin-top:30px;
+	text-align:center;
+	position:relative;
+}
+
+.figuraReportCidade
+{
+	width:350px;	
+	margin-left:950px;
+	margin-top:30px;
+	text-align:center;
+	position:relative;
+}
+
+.figuraReportEstado
+{
+	width:350px;	
+	margin-left:1080px;
+	margin-top:30px;
+	text-align:center;
+}
+
+.figuraReportVeiculo
+{
+	width:350px;	
+	margin-left:950px;
+	margin-top:10px;
+	text-align:center;
+}
+
+.figuraReportOrdemServico
+{
+	width:350px;	
+	margin-left:950px;
+	margin-top:40px;
+	text-align:center;
+	position:relative;
+}
+
+.figuraReportServico
+{
+	width:350px;	
+	margin-left:950px;
+	margin-top:40px;
+	text-align:center;
+	position:relative;
+}
+
+/******************* Formatação Tabelas Relatórios *******************/
+#tableReportPessoa 
+{
+	fonte: 11px/24px Verdana, Arial, Helvetica, sans-serif;	
+	width: 1200px;
+	height: 100px;
+	text-align:center;
+	border: 2px solid black;	
+	border-collapse: collapse;
+	border-color:#009;	
+}
+
+#titulosPessoa
+{
+	color:#009;
+	background:#83F0FC;
+	border: 2px solid black;
+	border-color:#009;
+}
+
+#tableReportEstado 
+{
+	fonte: 11px/24px Verdana, Arial, Helvetica, sans-serif;	
+	width: 900px;
+	text-align:center;
+	border: 2px solid black;	
+	border-collapse: collapse;
+	border-color:#009;	
+}
+
+#titulosEstado
+{
+	color:#009;
+	background:#83F0FC;
+	border: 2px solid black;
+	border-color:#009;
+}
+
+#tableReportCidade
+{
+	fonte: 11px/24px Verdana, Arial, Helvetica, sans-serif;	
+	width: 900px;
+	text-align:center;
+	border: 2px solid black;	
+	border-collapse: collapse;
+	border-color:#009;	
+}
+
+#titulosCidade
+{
+	color:#009;
+	background:#83F0FC;
+	border: 2px solid black;
+	border-color:#009;
+}
+
+#tableReportVeiculo 
+{
+	fonte: 11px/24px Verdana, Arial, Helvetica, sans-serif;	
+	width: 900px;
+	text-align:center;
+	border: 2px solid black;	
+	border-collapse: collapse;
+	border-color:#009;	
+}
+
+#titulosVeiculo
+{
+	color:#009;
+	background:#83F0FC;
+	border: 2px solid black;
+	border-color:#009;
+}
+
+#tableReportOrdemServico
+{
+	fonte: 11px/24px Verdana, Arial, Helvetica, sans-serif;	
+	width: 900px;
+	text-align:center;
+	border: 2px solid black;	
+	border-collapse: collapse;
+	border-color:#009;
+}
+
+#titulosOrdem
+{
+	color:#009;
+	background:#83F0FC;
+	border: 2px solid black;
+	border-color:#009;	
+}
+
+#tableReportServico
+{
+	fonte: 11px/24px Verdana, Arial, Helvetica, sans-serif;	
+	width: 900px;
+	text-align:center;
+	border: 2px solid black;	
+	border-collapse: collapse;
+	border-color:#009;
+}
+
+#titulosServico
+{
+	color:#009;
+	background:#83F0FC;
+	border: 2px solid black;
+	border-color:#009;	
+}
+
+/******************* Formatação Tabelas Relatórios *******************/
+#divRelatorioPessoa
+{
+	border-radius: 1em;
+	margin:0 auto;
+	top:30%;
+	left:50%;
+	width:350px;	
+	margin-left:160px;
+	margin-top:-290px;
+	text-align:center;
+}
+
+#tituloRelatorioPessoas
+{
+	 text-align:center;
+	 margin-top: 80px;
+	 color:#009;
+}
+
+#divRelatorioEstado
+{
+	border-radius: 1em;
+	margin:0 auto;
+	top:30%;
+	left:50%;
+	width:350px;	
+	margin-left:280px;
+	margin-top:-300px;
+	text-align:center;	
+}
+
+#tituloRelatorioEstado
+{
+	text-align:center;
+	margin-top: 100px;
+	color:#009;
+}
+
+#divRelatorioCidade
+{
+	border-radius: 1em;
+	margin:0 auto;
+	top:30%;
+	left:50%;
+	width:350px;	
+	margin-left:280px;
+	margin-top:-290px;
+	text-align:center;	
+}
+
+#tituloRelatorioCidade
+{
+	text-align:center;
+	margin-top: 70px;
+	color:#009;
+}
+
+#divRelatorioVeiculo
+{
+	border-radius: 1em;
+	margin:0 auto;
+	top:30%;
+	left:50%;
+	width:350px;	
+	margin-left:280px;
+	margin-top:-310px;
+	text-align:center;	
+}
+
+#tituloRelatorioVeiculo
+{
+	text-align:center;
+	margin-top: 70px;
+	padding: 15px;
+	color:#009;
+}
+
+#Filtros
+{
+	/*margin-top:350px;
+	margin-left:930px;
+	position: absolute;*/
+}
+
+#Paginacao
+{
+	margin-top: 310px;
+	margin-left: 730px;
+	position: absolute;
+}
+
+#divRelatorioOrdemServico
+{
+	/*border-radius: 1em;
+	margin:0 auto;
+	width:350px;	
+	margin-left:280px;
+	margin-top:-360px;
+	text-align:center;
+	position:relative;*/	
+	margin:0 auto;
+	width:350px;
+	margin-left:280px;
+	margin-top:-275px;
+}
+
+#tituloRelatorioOrdemServico
+{
+	text-align:center;
+	margin-top: 50px;
+	color:#009;
+}
+
+#dataInicial
+{
+	margin-left: 5px;
+	color:#039;
+}
+
+#dataFinal
+{
+	margin-left: 5px;
+	color:#039;
+}
+
+#FiltrosInfo
+{
+	position:absolute;
+	margin-left: -100px;
+	font-size:20px;
+	color:#FF661C;
+}
+
+#divRelatorioServico
+{
+	border-radius: 1em;
+	margin:0 auto;
+	top:30%;
+	left:50%;
+	width:350px;	
+	margin-left:280px;
+	margin-top:-330px;
+	text-align:center;	
+}
+
+#tituloRelatorioServico
+{
+	text-align:center;
+	margin-top: 30px;
+	padding: 50px;
+	color:#009;
+}
+
+/**********************************************************************/
+.descricaoCampo
+{
+	height: 100px;
+	width: 300px;
+	top:50%;
+	left:50%;    
+	max-height:100px;	
+	max-width: 300px;
+}
+
+/************************** Formatação dos Botões Voltar Cadastros *********************************/
+#return
+{  
+	margin-left:20px;
+	margin-top:150px;
+}
+
+#returnOrdem
+{  
+	margin-left:20px;
+	margin-top:150px;
+}
+
+.botoesOrdem
+{
+	margin-top:-10px;
+}
+
+#returnVeiculo
+{  
+	position:absolute;
+	margin-left:20px;
+	margin-top:123px;
+}
+
+/************************** Formatação dos Botões Voltar Relatórios *********************************/
+#returnReportCidade
+{  
+	position:relative;
+	text-align:center;
+	padding: 60px;
+}
+
+#returnReportCliente
+{  	
+	text-align:center;
+	padding: 60px;
+}
+
+#returnReportEstado
+{  
+	text-align:center;
+	padding: 60px;
+}
+
+#returnReportFornecedor
+{  
+	text-align:center;
+	padding: 60px;
+}
+
+#returnReportOrdemServico
+{  
+	text-align:center;
+	padding: 60px;
+}
+
+#returnReportVeiculo
+{  
+	text-align:center;
+	padding: 60px;
+}
+
+#Printer
+{  
+	margin-left:60px;
+}
+
+#Adicionar
+{  
+	margin-left:60px;
+}
+
+/******************************* Formatação dos Campos dos Filtros do Relatório de Ordem de Serviços ********************************/
+#Filtros
+{
+	margin-top:265px;
+	margin-left:170px;
+	width:800px;
+	position:absolute;
+}
+
+#pagina
+{
+	position:absolute;
+	left:689px;
+	top:360px;
+	background-color:#FFF;
+}
+
+/************************************* Formatação dos Botões  *************************************/
+button
+{
+	font-weight: bold;
+	padding: 2px;
+	float: right;
+	margin-top: 15px;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	background-color: #FFFFFF;
+	color: #039;
+}
+
+#divRelatorioMostrar
+{
+	overflow:auto;
+	width:100%;
+}
+
+tr.par
+{
+	background-color:#C6FFFF;
+}
+
+/************************************************** Formatação Paginação **************************************************/
+
+#mostraPaginacaoCidade
+{
+	position:absolute;
+	margin-top: -35px;
+	margin-left: 760px;	
+	/*border: 1px solid #9aafe5;*/
+    color: #2e6ab1;
+    padding:5px;
+    text-align: center;
+}
+
+#mostraPaginacaoCidade a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoCidade a, #mostraPaginacaoCidade a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoCidade a:hover, #mostraPaginacaoCidade a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
+
+#mostraPaginacaoEstado
+{
+	position:absolute;
+	margin-top: -30px;
+	margin-left: 800px;
+	color: #2e6ab1;
+    padding:5px;
+    text-align: center;
+}
+
+#mostraPaginacaoEstado a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoEstado a, #mostraPaginacaoEstado a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoEstado a:hover, #mostraPaginacaoEstado a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
+
+#mostraPaginacaoCliente
+{
+	position:absolute;
+	margin-top: -40px;
+	margin-left: 900px;
+	color:#000;
+}
+
+#mostraPaginacaoCliente a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoCliente a, #mostraPaginacaoCliente a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoCliente a:hover, #mostraPaginacaoCliente a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
+
+#mostraPaginacaoFornecedor
+{
+	position:absolute;
+	margin-top: -300px;
+	margin-left: 900px;
+	color:#000;
+}
+
+#mostraPaginacaoFornecedor a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoFornecedor a, #mostraPaginacaoFornecedor a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoFornecedor a:hover, #mostraPaginacaoFornecedor a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
+
+#mostraPaginacaoOrdemServico
+{
+	position:absolute;
+	margin-top: -40px;
+	margin-left: 750px;
+	color:#000;
+}
+
+#mostraPaginacaoOrdemServico a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoOrdemServico a, #mostraPaginacaoOrdemServico a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoOrdemServico a:hover, #mostraPaginacaoOrdemServico a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
+
+#mostraPaginacaoServico
+{
+	position:absolute;
+	margin-top: -40px;
+	margin-left: 720px;
+	color:#000;
+}
+
+#mostraPaginacaoServico a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoServico a, #mostraPaginacaoServico a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoServico a:hover, #mostraPaginacaoServico a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
+
+#mostraPaginacaoVeiculo
+{
+	position:absolute;
+	margin-top: -40px;
+	margin-left: 750px;
+	color:#000;
+}
+
+#mostraPaginacaoVeiculo a
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+	color: #F00;
+	list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#mostraPaginacaoVeiculo a, #mostraPaginacaoVeiculo a:visited
+{
+	padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+#mostraPaginacaoVeiculo a:hover, #mostraPaginacaoVeiculo a:active
+{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+/*###################################################################*/
